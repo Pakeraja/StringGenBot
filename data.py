@@ -2,14 +2,14 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("🙄 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 🙄", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("😒𝙶𝚎𝚗𝚎𝚛𝚊𝚝𝚎 𝚂𝚎𝚜𝚜𝚒𝚘𝚗😒", callback_data="generate")]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("❣️ sᴜᴩᴩᴏʀᴛ ❣️", url="https://t.me/DevilsHeavenMF"),
-         InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/anonymous_was_bot"),
+        [InlineKeyboardButton("😌𝙵𝚞𝚗𝚗𝚢 𝙶𝚒𝚏𝚜😌", url="https://t.me/rjbr0"),
+         InlineKeyboardButton("🤨𝚂𝚝𝚒𝚌𝚔𝚎𝚛𝚜🤨", url="https://t.me/Groot_Network"),
         ],
     ]
 
