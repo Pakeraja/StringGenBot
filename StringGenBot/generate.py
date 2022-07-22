@@ -32,18 +32,18 @@ from telethon.errors import (
 )
 
 
-ask_ques = "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴩʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**"
+ask_ques = "**» 𝙿𝚕𝚎𝚊𝚜𝚎 𝙲𝚑𝚘𝚘𝚜𝚎 𝚃𝚑𝚎 𝚙𝚢𝚝𝚑𝚘𝚗 𝙻𝚒𝚋𝚛𝚊𝚛𝚢 𝙵𝚘𝚛 𝚆𝚑𝚒𝚌𝚑 𝚈𝚘𝚞 𝚆𝚊𝚗𝚝 𝚃𝚘 𝙶𝚎𝚗𝚎𝚛𝚊𝚝𝚎 𝚂𝚝𝚛𝚒𝚗𝚐:**"
 buttons_ques = [
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ", callback_data="pyrogram1"),
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ᴠ2", callback_data="pyrogram"),
+        InlineKeyboardButton("𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖", callback_data="pyrogram1"),
+        InlineKeyboardButton("𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖 𝚟2", callback_data="pyrogram"),
     ],
     [
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon"),
+        InlineKeyboardButton("𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ", callback_data="telethon_bot"),
+        InlineKeyboardButton("𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖 𝙱𝚘𝚝", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("𝚃𝚎𝚕𝚎𝚝𝚑𝚘𝚗 𝙱𝚘𝚝", callback_data="telethon_bot"),
     ],
 ]
 
